@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Graphics
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator-V1-ndk:64 \
+    android.hardware.graphics.common-V3-ndk:64 \
+    libbufferhub:64
+
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet-miuicamera/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
